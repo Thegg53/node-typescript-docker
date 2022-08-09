@@ -7,3 +7,6 @@ services:
       - .:/app
       - /app/node_modules
     command: yarn dev
+    ports:
+      - 3000:3000
+      - 9229:9229

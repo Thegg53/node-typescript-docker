@@ -5,6 +5,7 @@
   "repository": "git@github.com:MichalMoravik/typescript-docker",
   "author": "MichalMoravik <michal.moravik@icloud.com>",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "start": "node --unhandled-rejections=strict ./dist/index.js",
     "dev": "yarn run tsc -w | yarn run dev:start",
