@@ -94,6 +94,12 @@ CMD yarn "$(if [ $NODE_ENV = 'production' ] ; then echo 'start' ; else echo 'dev
 
 <br />
 
+## TS config
+https://medium.com/@tommedema/typescript-confusion-tsconfig-json-module-moduleresolution-target-lib-explained-65db2c44b491
+
+
+https://www.typescriptlang.org/docs/handbook/module-resolution.html
+
 ## Errors
 
 When you encounter an error (or unexpected behaviour) that you cannot solve:
